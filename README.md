@@ -1,6 +1,6 @@
 # Hospital Discharge Predictor
 
-Original data can be found here -[HealthData: Hospital Inpatient Discharges (SPARCS De-Identified)](https://healthdata.gov). 
+Original data can be found here - [HealthData: Hospital Inpatient Discharges (SPARCS De-Identified)](https://healthdata.gov). 
 
 The Statewide Planning and Research Cooperative System (SPARCS) Inpatient De-identified File contains discharge level detail on patient characteristics, diagnoses, treatments, services, and charges.
 
@@ -25,3 +25,5 @@ The Statewide Planning and Research Cooperative System (SPARCS) Inpatient De-ide
 | AverageIncomeInZipCode       | Attribute 13     | Average Income In Zip Code                                                                                                                                                                                   |
 | LengthOfStay                 | target           | The total number  of patient days at an acute level and/or other than acute care level. Need to be transformed to match the task class 0 id LengthOfStay < 4 and class 1 otherwise                           |
 
+
+The analysis and subsequent prediction techniques employed can be found in the analysis_notebook file
